@@ -1,0 +1,15 @@
+AddDefaultCharset UTF-8
+#DirectoryIndex index.php
+#ErrorDocument 404 /404.php
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+RewriteRule ^sitemap.xml$ sitemap.php [L,QSA]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+#Правила без роутинга
+#RewriteRule (\w+\-[A-Za-z0-9-]+)$ category.php?categoru=$1
+#RewriteRule (\w+\S\b\-[A-Za-z0-9-]+)$ post.php?url=$1

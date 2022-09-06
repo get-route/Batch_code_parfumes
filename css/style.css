@@ -1,0 +1,730 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    min-width: 320px !important;
+    color: #04202c;
+}
+
+a {
+    color: #04202c;
+}
+a:hover{
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.table-post{
+    width: 100%;
+    height: 100%;
+}
+table-post ,td{
+    border: black 1px solid;
+}
+.table-post ,tr{
+    border: #0f6674 2px solid;
+    border-radius: 100px;
+}
+/*Заголовок и меню*/
+.nav-item {
+    color: #003b46 ;
+}
+a.brands{
+    font-size:50px;
+    color: #04202c!important;
+}
+@media(max-width:320px){
+    a.brands{
+        font-size:40px;
+        color: #04202c!important;
+    }
+}
+a.nav-link{
+    border-radius: 50px;
+    margin: 3px;
+    background-color: #17252A;
+    color: #FEFFFF !important;
+}
+a.nav-link:hover{
+    background-color: #07575b ;
+}
+.header {
+    min-height: 620px;
+    background-color: #c4dfe6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-post {
+    min-height: 387px;
+    background-color: #0faeb4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    font-size: 35px;
+}
+
+.logo-paragraph {
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.info-post {
+    margin-top: 100px;
+}
+
+/*Форма поиска*/
+.index-form-post {
+    margin-top: 150px;
+}
+
+.form-search {
+    min-width: 200px;
+    margin-top: 20px;
+}
+
+.form-search-post {
+    min-width: 100px;
+}
+
+.serch-value {
+    background-color: #004486;
+    border: white solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.serch-value-button {
+    background-color: #004486;
+    border: #008245 solid;
+    font-size: 30px;
+    color: #f7f7f7;
+    margin: 10px;
+}
+
+.serch-value-button:hover {
+    background-color: #113153;
+    border: white solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.serch-donwld-button {
+    background-color: #01490a;
+    border: #004486 solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.serch-donwld-button:hover {
+    background-color: #113153;
+    border: white solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.serch-value::-moz-placeholder {
+    color: #fff;
+}
+
+.serch-value:-ms-input-placeholder {
+    color: #fff;
+}
+
+.serch-value::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.form-search-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.form-search-paragraph {
+    margin: 10px;
+
+}
+/*Форма расшифровки кода*/
+.batch-form{
+    min-width: 200px;
+    margin-top: 20px;
+}
+.batch-name,.batch-search{
+    background-color: #07575b;
+    border: #008245 solid;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 10px;
+}
+.batch-name::-moz-placeholder {
+    color: #fff;
+}
+
+.batch-name:-ms-input-placeholder {
+    color: #fff;
+}
+
+.batch-name::-webkit-input-placeholder {
+    color: #fff;
+}
+.batch-info-table{
+    min-width: 200px;
+    margin: 20px;
+}
+.batch-info-table td{
+
+    color: #0c570c;
+}
+.batch-info-table td:hover{
+    color: #000000;
+}
+.red_font{
+    color: #8b1420;
+}
+.img-comment{
+    min-width: 100px;
+    min-height: 100px;
+}
+/*Про сервис*/
+.our-servis{
+    margin: 10px;
+    min-width: 320px;
+}
+
+.what-servises{
+    background-color: #cadade;
+}
+.what-servise-img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.what-servise-text{
+    font-size: 20px;
+}
+/*Слайдер*/
+.keys{
+    margin: 10px;
+    font-size: 20px;
+    height: auto;
+
+}
+
+.keys a{
+    color: black;
+    font-size: 20px;
+}
+.keys a:active:hover:focus{
+    color: #0f6674!important;
+}
+.keys-header{
+    margin: 10px;
+}
+.carousel-control-next a{
+    color: black !important;
+}
+
+.carousel-control-prev:focus,.carousel-control-next:focus{
+    color: #1c7430;
+
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+    color: black;
+    background-color: black;
+}
+.slide-carusel{
+    margin: 30px;
+}
+.slide-img{
+    margin: 5px;
+    max-width: 200px;
+    border-radius: 50px;
+}
+/*Отзывы*/
+.rewiew_blok carousel-control-next{
+background: none;
+}
+.rewiev{
+
+}
+.rewiev-text{
+    font-style: italic;
+}
+/*Анимация*/
+.video{
+    width: 500px;
+}
+.video-promo{
+    margin: 10px;
+    min-width: 320px;
+}
+ .video-post {
+    width: 100%;
+    height: 50%;
+}
+.promo-video{
+    width: 500px;
+    height: 300px;
+    border: none;
+}
+@media(max-width:320px){
+    .promo-video{
+        display: none;
+    }
+}
+.buton-brand{
+    border: black 3px solid;
+    background-color: #128277;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px;
+}
+.buton-brand:hover{
+    background-color: #c9d1c8;
+
+}
+.button-parfume-link{
+    color: #ffffff;
+}
+.button-parfume-link:hover{
+    color: white;
+}
+.button-parfume {
+    background-color: #07575b;
+    border-radius: 14px;
+    margin: 2px;
+}
+.button-parfume:hover{
+    background-color: #04202c;
+}
+.parfume-img{
+    margin-top: 100px;
+}
+.where_img_post{
+    max-height: 400px;
+    max-width: 400px;
+    margin: 20px;
+    border: #1c7430 2px solid;
+}
+@media(max-width:520px){
+    .where_img_post{
+    max-width: 250px;
+}
+	
+}
+.all-brands{
+    margin-top: 20px;
+    border: #04202c 3px solid;
+    background-color: #02390d;
+    border-radius: 14px;
+}
+.all-brands a{
+    color: #ffffff;
+    font-size: 30px;
+}
+.no {
+    margin-bottom: -400px;
+    animation: no 3s 3ms infinite alternate ;
+    -webkit-animation: no 3s 3ms infinite alternate;
+    -moz-animation: no 3s 3ms infinite alternate;
+    -o-animation: no 3s 3ms infinite alternate;
+}
+.lupe{
+    -webkit-animation: spin 2s 1ms infinite alternate ease-in-out;
+    -moz-animation: spin 2s 1ms infinite alternate ease-in-out;
+    -o-animation: spin 2s 1ms infinite alternate ease-in-out;
+    animation: spin 2s 1ms infinite alternate ease-in-out;
+}
+@media(min-width:768px){
+    .lupe{
+        margin-left: 200px;
+    }
+}
+/*Пункт по назначению*/
+.index-post {
+
+    margin: 20px;
+    border: rgba(255, 255, 255, 0.34) 4px solid;
+}
+
+.index-form {
+    margin-top: 130px;
+}
+
+.index-post:hover {
+    border-right: #01490a 4px solid;
+}
+
+.index-image {
+    max-height: 150px;
+    max-width: 150px;
+    border: black solid 2px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.index-image-category {
+    max-height: 300px;
+    max-width: 300px;
+    border: black solid 2px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.people{
+    min-width: 320px;
+    max-height: 254px;
+}
+.card {
+    margin-top: 10px;
+}
+
+.info-section {
+    background-color: #cadade;
+}
+
+.card-body-link h3 {
+    font-size: 40px;
+}
+.content-section {
+    background-color: #c4dfe6;
+}
+.paragraph-section {
+    font-size: 25px;
+}
+.content-section-text {
+    margin-top: 30px;
+    background: none!important;
+    font-size: 20px;
+}
+/*Соц иконки*/
+.soc-icon{
+    margin: 10px;
+}
+/*Секция информации*/
+.post-section {
+
+    min-height: 200px;
+}
+
+.content-section-post {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+
+.buton-info {
+    font-size: 20px;
+    color: black;
+    border-radius: 54px 20px/0px 50px;
+    background-color: #5b8f97;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.kards-category {
+
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.border-info {
+    border: #113153 3px dashed !important;
+
+}
+.alphabet{
+    border: #0c5460 1px outset;
+}
+.alphabet-ul,a{
+    color: #0c570c;
+}
+.header-alphabet{
+    border: #0c5460 2px solid;
+    width: 100px;
+    border-radius: 300px;
+}
+/*Комментарии*/
+.hr-line {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px solid #333;
+}
+
+.comment {
+    background-color: #b6d0e1;
+}
+
+.comment-form {
+    background-color: #ffffff;
+    margin: 30px;
+    border: 4px #b6d0e1 solid;
+    justify-content: center;
+}
+
+.comment-start {
+    background-color: #0c5460;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.comment-start:hover {
+    background-color: #000000;
+    width: 200px;
+    height: 50px;
+}
+
+.vk-icon-post, .fb-icon, .tw-icon, .tg-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.vk-icon-post:hover, .fb-icon:hover, .tw-icon:hover, .tg-icon:hover {
+    border: 3px solid #2676c9;
+    border-radius: 10px;
+}
+.ancor{
+    border: #80002f 1px solid;
+}
+.ancor-comment{
+border-bottom: #0c570c 4px dashed;
+    color: #80002f;
+}
+/*Футер*/
+.footer {
+    background-color: #5b8f97;
+}
+
+.footer-text {
+    font-size: 20px;
+}
+.footer-text-down{
+    font-size: 15px;
+}
+.vk-icon-footer{
+    width: 100px;
+    height: 120px;
+}
+/*Админка*/
+.login-header {
+    margin-top: 200px;
+}
+
+.komment-button-admin {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.komment-table-admin {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.adminka {
+    background-color: #ffffff;
+}
+
+.adminka a {
+    color: rgba(0, 0, 0, 0.83);
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+/*Последние записи*/
+.kards-telated {
+    max-width: 500px;
+}
+.kards-telated h4{
+    word-break: break-all;
+}
+.related-image {
+    max-width: 200px;
+    border: black 2px solid;
+    border-radius: 100px;
+}
+
+/*Списки, цитаты,обтекание картинки*/
+.bullet {
+    margin-left: 0;
+    list-style: none;
+    counter-reset: li;
+}
+
+.bullet li {
+    position: relative;
+    margin-bottom: 1.5em;
+    border: 3px solid #2676c9;
+    padding: 0.6em;
+    border-radius: 4px;
+    background: #FEFEFE;
+    color: #231F20;
+    font-family: 'Roboto Slab', serif;
+	word-wrap: break-word;
+
+}
+
+.bullet li:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #DCC24B;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
+
+blockquote {
+    margin: 0;
+    background: #e0e0dd;
+    color: #474C4F;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+blockquote:before {
+    content: "!";
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 14px;
+    color: #474C4F;
+    font-size: 20px;
+    background: #b6d0e1;
+    padding: 0 15px;
+}
+
+blockquote:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    right: 15px;
+    height: 4px;
+    border-top: 1px dotted #474C4F;
+    border-bottom: 1px dotted #474C4F;
+}
+
+blockquote p {
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-weight: 300;
+}
+
+.leftimg {
+    float: left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+.rightimg {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+.imgcenter {
+    position: center;
+}
+
+/*Анимация*/
+
+
+
+.test {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 83px;
+    animation-name: spin;
+    /*Длительность*/
+    animation-duration: 2s;
+    /*Замедляется вначале, вконце*/
+    animation-timing-function: ease;
+    /*Пауза перед началом*/
+    animation-delay: 1ms;
+    /*Можно сделать бесконечно*/
+    animation-iteration-count: infinite;
+    /*В обратную сторону*/
+    animation-direction: revert;
+    /*Это все свойства парамера animation. можно задать одной строкой*/
+    /*Нужно писать для браузеров префиксы*/
+    -webkit-animation: spin 1s 1ms infinite alternate ease-in-out;
+    -moz-animation: spin 1s 1ms infinite alternate ease-in-out;
+    -o-animation: spin 1s 1ms infinite alternate ease-in-out;
+    animation: spin 1s 1ms infinite alternate ease-in-out;
+}
+
+.headk {
+    min-height: 820px;
+    background-image: url("../images/header-index.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) translateY(200px) rotate(0deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+
+@keyframes no {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}

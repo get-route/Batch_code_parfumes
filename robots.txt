@@ -1,0 +1,17 @@
+User-agent: Yandex 
+Disallow: /images
+Disallow: /Admin
+Disallow: /js
+Disallow:/category
+Host: https://myparfumes.ru/
+
+User-agent: Googlebot 
+Disallow: /images
+Disallow: /Admin
+Disallow:/category
+
+User-agent: *         
+Disallow: /images
+Disallow:/category
+Disallow: /Admin
+Sitemap: https://myparfumes.ru/sitemap.xml
